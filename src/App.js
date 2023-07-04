@@ -9,7 +9,7 @@ function App() {
     <div className="App">
        <Navbar></Navbar>
        <Routes>
-          <Route path="/" element={<Home/>} />
+          <Route path="/social-media-react-app/" element={<Home/>} />
           <Route path={`/item/:x`} element={<PostDetails />} />
        </Routes>
     </div>
