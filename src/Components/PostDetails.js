@@ -16,7 +16,7 @@ const PostDetails = () =>{
 
     useEffect(()=>{
         if(filteredPost[0]==undefined){
-            navigate('/social-media-react-app/')
+            navigate('/')
         }
     })
     return(
